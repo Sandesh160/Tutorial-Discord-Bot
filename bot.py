@@ -16,7 +16,7 @@ def main():
         if os.path.exists(os.path.join("modules", folder, "cog.py")):
             client.load_extension(f"modules.{folder}.cog")
 
-    client.run(os.getenv("DISCORD_TOKEN"))
+    client.run(os.getenv("OTM1NTU4ODU2NDQzMDY4NDE2.YfAZFQ.vGv4gDbXzH9RKwDetFf0WMci5yk"))
 
 if __name__ == '__main__':
     main()
